@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(226, 224, 224);
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+h2{
+    font-size: 30px;
+}
+.underline{
+    background: rgb(29, 161, 242);;
+    max-width: 60px;
+    border: 1.6px solid rgb(29, 161, 242);
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: -19px;
+}
+.review{
+    background: white;
+    width: 320px;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(236, 35, 35, 0.2), 0 6px 20px 0 rgba(194, 8, 8, 0.19);
+   text-align: center;
+   border-radius: 5px;
+}
+#person-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: 6px solid hsl(207, 50%, 53%);
+}
+#job{
+    color: rgb(29, 161, 242);
+}
+.prev-btn{
+    border: none;
+}
+.next-btn{
+    border: none;
+}
+.random-btn{
+    border: 1.5px solid rgb(29, 161, 242);
+    border-radius: 7px;
+}
+.random-btn:hover{
+    background-color: rgb(29, 161, 242);
+    color: white;
+}
+button{
+    color:rgb(29, 161, 242);
+    background: none;
+}
